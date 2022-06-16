@@ -19,8 +19,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: 14
-          cache: 'npm'
+          node-version: 16
 
       - name: Get Changed Files
         id: changed-files
