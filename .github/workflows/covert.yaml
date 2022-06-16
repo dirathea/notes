@@ -38,7 +38,7 @@ jobs:
           git config --global user.name '${{ github.actor }}'
           git config --global user.email '${{ github.actor }}@users.noreply.github.com'
 
-          git add data/
+          git add data
 
-          git commit 'Update tiddlywiki'
+          git commit -m "Update tiddlywiki"
           git push origin main
