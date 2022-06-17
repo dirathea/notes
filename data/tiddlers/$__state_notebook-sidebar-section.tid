@@ -1,8 +1,8 @@
-created: 20220617035812297
+created: 20220617040454377
 creator: dirathea
-modified: 20220617035812297
+modified: 20220617040514173
 modifier: dirathea
-revision: 1
+revision: 5
 title: $:/state/notebook-sidebar-section
 
-$:/core/ui/SideBar/Tools
+$:/core/ui/SideBar/Recent
