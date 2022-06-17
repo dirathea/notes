@@ -1,0 +1,10 @@
+name: High Contrast
+tags: $:/tags/monaco/theme
+title: $:/plugins/smilyorg/monaco/themes/hc-black.json
+
+<pre>
+{
+    "base": "hc-black",
+    "inherit": true
+}
+</pre>
