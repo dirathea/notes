@@ -196,11 +196,15 @@ Error message and password prompt
 
 <li>$:/SiteTitle</li>
 
+<li>$:/state/advancedsearch/currentTab</li>
+
 <li>$:/state/notebook-sidebar</li>
 
 <li>$:/state/notebook-sidebar-section</li>
 
 <li>$:/state/showeditpreview</li>
+
+<li>$:/state/tab--1498284803</li>
 
 <li>$:/status/IsAnonymous</li>
 
@@ -302,11 +306,15 @@ Error message and password prompt
 
 {"title":"$:/SiteTitle","created":"20220615060126563","creator":"dirathea","modified":"20220615065227622","modifier":"dirathea","type":"text/vnd.tiddlywiki","text":"Bold and Brash","revision":"0","bag":"default"},
 
+{"created":"20220617040631212","creator":"dirathea","title":"$:/state/advancedsearch/currentTab","text":"$:/core/ui/AdvancedSearch/Filter","modified":"20220617040632147","modifier":"dirathea","revision":"2","bag":"default"},
+
 {"created":"20220617040452895","creator":"dirathea","title":"$:/state/notebook-sidebar","text":"yes","modified":"20220617040511984","modifier":"dirathea","revision":"3","bag":"default"},
 
-{"created":"20220617040454377","creator":"dirathea","title":"$:/state/notebook-sidebar-section","text":"$:/core/ui/SideBar/Recent","modified":"20220617040514173","modifier":"dirathea","revision":"5","bag":"default"},
+{"created":"20220617040454377","creator":"dirathea","title":"$:/state/notebook-sidebar-section","text":"$:/core/ui/SideBar/Open","modified":"20220617040622824","modifier":"dirathea","revision":"7","bag":"default"},
 
 {"created":"20220617040532499","creator":"dirathea","title":"$:/state/showeditpreview","text":"yes","modified":"20220617040532499","modifier":"dirathea","revision":"1","bag":"default"},
+
+{"created":"20220617040631213","creator":"dirathea","title":"$:/state/tab--1498284803","text":"$:/core/ui/AdvancedSearch/Filter","modified":"20220617040632147","modifier":"dirathea","revision":"2","bag":"default"},
 
 {"title":"$:/status/IsAnonymous","text":"no","revision":"1","bag":"default"},
 
@@ -318,7 +326,7 @@ Error message and password prompt
 
 {"title":"$:/status/UserName","text":"dirathea","revision":"1","bag":"default"},
 
-{"created":"20220617040515663","creator":"dirathea","title":"$:/StoryList","text":"","list":"[[Auto Save Raw Tiddler to Git Service]] GitHub [[Hello There 👋]]","modified":"20220617040607619","modifier":"dirathea","revision":"5","bag":"default"},
+{"title":"$:/StoryList","created":"20220617040629535","creator":"dirathea","text":"","list":"[[Hello There 👋]]","modified":"20220617040642029","modifier":"dirathea","revision":"13","bag":"default"},
 
 {"title":"$:/theme","created":"20220615060659196","modified":"20220615062956094","type":"text/vnd.tiddlywiki","text":"$:/themes/nico/notebook","revision":"0","bag":"default"},
 
@@ -336,7 +344,7 @@ Error message and password prompt
 
 {"created":"20220617024628419","creator":"dirathea","text":"Popular","title":"GitHub","modified":"20220617040600708","modifier":"dirathea","type":"text/vnd.tiddlywiki","revision":"1","bag":"default","tags":"definition"},
 
-{"title":"Hello There 👋","created":"20220615061018978","creator":"dirathea","modified":"20220615075136074","modifier":"dirathea","tags":"general","type":"text/vnd.tiddlywiki","text":"Hello There!\n\nWelcome to my tiddlywiki 😄\n\nCurrently playing around with this awesome tools. Hope I could customize it so it could be my personal blogs, resume, and any snippets or random ideas to be shared publicly 😄","revision":"0","bag":"default"},
+{"created":"20220615061018978","creator":"dirathea","text":"Hello There!\n\nWelcome to my tiddlywiki 😄\n\nCurrently playing around with this awesome tools. Hope I could customize it so it could be my personal blogs, resume, and any snippets or random ideas to be shared publicly 😄\n\n''# Latest Post\n''\n\u003C\u003Clist-links \"[tags[]!is[system]sort[title]]\">>","title":"Hello There 👋","modified":"20220617040757687","modifier":"dirathea","tags":"general","type":"text/vnd.tiddlywiki","revision":"1","bag":"default"},
 
 {"created":"20220615085347490","creator":"dirathea","text":"Having always free computes from cloud provider, really open up a new world of \"nerd\"-ing 🤣\n\nWhile test this new plugin editor, I'd list all the tools that I currently use\n\n## [Tailscale](https://tailscale.com)\nA great prerequisite to do! This tools is help you to setup a mesh VPN so you could establish a secure communication between your computer and your server\n\n## [Bitwarden](https://bitwarden.com/)\nSelf hosted password manager to record your password (obviously), and store it on your server. Uses the community version [vaultwarden](https://github.com/dani-garcia/vaultwarden) for simpler setup\n\n## [Ferdi](https://github.com/getferdi/ferdi)\nAll in one messenger app. As a person who works with Slack, Whatsapp almost every day, it is way simpler to have those in one apps. It should ended up with smaller memory footprint (?) and centralized. But one thing that just come to me, especially with this setup is, on Mac OS, it have a feature called \"Focus\" where you can customize which apps that allowed to send you notification. Centralzied every messenger apps on Ferdi simplify this setup by allowing 1 apps for multiple chat apps.\n\n## [Litestream](https://litestream.io/)\nBitwarden and Ferdi uses SQLite as database. This lightweight database gets better with Litestream, where you can replicates the data to S3 buckets, so you have simple yet robust disaster recovery plan. It should be cheap because of S3 pricing and convenient.\n\nand last but not least,\n\n## [TiddlyWiki](https://github.com/Jermolene/TiddlyWiki5)\nThis notebook app has interesting approach as note taker application. They state that its a **non-linear personal web notebook** (still digesting whats the meaning of that 🤷‍♂️). This is it. You read this posts from my self hosted TiddlyWiki 😛\n\n# Conclusion\nI started to understand why people buying raspberry on their home, so excited with that tiny computing machine, etc. But doing it by my own, even this isn't a raspberry on my home, have peace of mind doing many things because of Tailscale, really change my mind about it.\nCustomizing TiddlyWiki also enrich the experience. This apps really had extreme customization and plugins to play with. This experience is similar with back then when I start exploring customization on my terminal like using ZSH themes, trying many differnet prompts etc.\n\nSo for you folks who want to do your own \"nerd\"-ing stuff like me, while exercising your knowledge of full stack stuff (backend, front end, operations, linux admin, even security when you need to deal with firewall etc), having your own server/raspberry really helps and fun\n\nCheers!✌️","tags":"tech","title":"Self Host Journey","modified":"20220615092750370","modifier":"dirathea","type":"text/x-markdown","bag":"default","revision":"0"}
 ]</script><div id="storeArea" style="display:none;"></div>
