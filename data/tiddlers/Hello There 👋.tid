@@ -1,8 +1,8 @@
 created: 20220615061018978
 creator: dirathea
-modified: 20220617040757687
+modified: 20220617040834861
 modifier: dirathea
-revision: 1
+revision: 2
 tags: general
 title: Hello There 👋
 type: text/vnd.tiddlywiki
@@ -15,4 +15,4 @@ Currently playing around with this awesome tools. Hope I could customize it so i
 
 ''# Latest Post
 ''
-<<list-links "[tags[]!is[system]sort[title]]">>
+<<list-links "[!is[system]sort[title]]">>
