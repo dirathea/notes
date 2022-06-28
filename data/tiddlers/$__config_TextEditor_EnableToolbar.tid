@@ -1,8 +1,9 @@
 created: 20220618063417915
 creator: dirathea
-modified: 20220618063417915
+modified: 20220618065447919
 modifier: dirathea
-revision: 1
+revision: 0
 title: $:/config/TextEditor/EnableToolbar
+type: text/vnd.tiddlywiki
 
-no
+yes

@@ -1,7 +1,9 @@
 created: 20220615061136515
-modified: 20220615061148413
-revision: 0
+creator: dirathea
+modified: 20220628031145911
+modifier: dirathea
+revision: 1
 title: $:/DefaultTiddlers
 type: text/vnd.tiddlywiki
 
-[[Hello There 👋]]
+[list[$:/StoryList]]

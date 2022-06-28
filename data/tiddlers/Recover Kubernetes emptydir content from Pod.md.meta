@@ -2,7 +2,7 @@ created: 20220618062720344
 creator: dirathea
 modified: 20220618065005791
 modifier: dirathea
-revision: 1
+revision: 0
 tags: tech kubernetes experiment
 title: Recover Kubernetes emptydir content from Pod
 type: text/x-markdown
