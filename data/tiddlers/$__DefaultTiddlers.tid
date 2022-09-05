@@ -2,8 +2,9 @@ created: 20220615061136515
 creator: dirathea
 modified: 20220628031145911
 modifier: dirathea
-revision: 1
+revision: 0
 title: $:/DefaultTiddlers
 type: text/vnd.tiddlywiki
 
-[list[$:/StoryList]]
+Resume
+[all[tiddlers]!is[system]last[5]sort[modified]!title[Resume]]

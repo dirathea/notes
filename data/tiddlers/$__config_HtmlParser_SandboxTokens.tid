@@ -1,0 +1,6 @@
+revision: 0
+tags: 
+title: $:/config/HtmlParser/SandboxTokens
+type: text/vnd.tiddlywiki
+
+allow-scripts allow-same-origin
