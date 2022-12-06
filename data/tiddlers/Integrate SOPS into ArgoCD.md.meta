@@ -1,0 +1,4 @@
+revision: 1
+tags: kubernetes tech tips
+title: Integrate SOPS into ArgoCD
+type: text/x-markdown
