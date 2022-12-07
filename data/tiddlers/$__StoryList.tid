@@ -1,3 +1,3 @@
-list: Resume [[Integrate SOPS into ArgoCD]] [[Kubernetes Resource Quota Problem]] [[Self Host Journey]] [[Recover Kubernetes emptydir content from Pod]]
-revision: 9
+list: Resume [[Draft of 'Integrate SOPS into ArgoCD' by dirathea]] [[Kubernetes Resource Quota Problem]] [[Self Host Journey]] [[Recover Kubernetes emptydir content from Pod]]
+revision: 1
 title: $:/StoryList

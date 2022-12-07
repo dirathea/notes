@@ -1,4 +1,5 @@
-revision: 1
+revision: 0
 title: ArgoCD
+type: text/vnd.tiddlywiki
 
 https://argo-cd.readthedocs.io/en/stable/
