@@ -1,2 +1,4 @@
-revision: 9
+revision: 18
 title: $:/state/notebook-sidebar-section
+
+$:/core/ui/SideBar/Tools
