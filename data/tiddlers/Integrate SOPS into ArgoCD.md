@@ -1,5 +1,8 @@
 # Background
 
+> Update Dec 7, 2022: Decrypted value from argocd-repo-server will be stored on redis for caching purposes. This has potential security risk if we don't enable password on redis.
+> Read more about this on [this reply](https://twitter.com/crenshawdotdev/status/1600131737190772736) or to the related [GitHub Issue](https://github.com/argoproj/argo-cd/issues/3130)
+
 ArgoCD is a Continuous Delivery system that has excelent sets of features, including an awesome UI and support for GitOps methodology. This condition really bring many users in order to use it as their Continuous Delivery system, including my company. But one crucial things that “missing” from ArgoCD is the way they do secret management, especially in GitOps approach.
 
 Based on their [official documentation](https://argo-cd.readthedocs.io/en/stable/operator-manual/secret-management/) their don’t really have any opinionated way to do this. But they do include some links about how to do secret management, most of them includes 3rd party tooling outside ArgoCD, with their own lifecycle / hacks.
